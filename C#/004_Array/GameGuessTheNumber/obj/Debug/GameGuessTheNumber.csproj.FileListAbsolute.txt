@@ -1,0 +1,8 @@
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\obj\Debug\GameGuessTheNumber.csproj.AssemblyReference.cache
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\obj\Debug\GameGuessTheNumber.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\obj\Debug\GameGuessTheNumber.csproj.CoreCompileInputs.cache
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\bin\Debug\GameGuessTheNumber.exe.config
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\bin\Debug\GameGuessTheNumber.exe
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\bin\Debug\GameGuessTheNumber.pdb
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\obj\Debug\GameGuessTheNumber.exe
+E:\ARVRStudy\C#\PracticalWork4.8\GameGuessTheNumber\obj\Debug\GameGuessTheNumber.pdb

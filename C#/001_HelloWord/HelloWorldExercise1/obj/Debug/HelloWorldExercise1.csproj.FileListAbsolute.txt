@@ -1,0 +1,8 @@
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\bin\Debug\HelloWorldExercise1.exe.config
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\bin\Debug\HelloWorldExercise1.exe
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\bin\Debug\HelloWorldExercise1.pdb
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\obj\Debug\HelloWorldExercise1.csproj.AssemblyReference.cache
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\obj\Debug\HelloWorldExercise1.csproj.SuggestedBindingRedirects.cache
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\obj\Debug\HelloWorldExercise1.csproj.CoreCompileInputs.cache
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\obj\Debug\HelloWorldExercise1.exe
+E:\ARVR_Study\C#\Practical work 1\HelloWorld\HelloWorldExercise1\obj\Debug\HelloWorldExercise1.pdb

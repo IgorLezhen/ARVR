@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c4ef37b9-99f5-4ed2-b88a-45f660394278": {
+      "ProjectGuid": "c4ef37b9-99f5-4ed2-b88a-45f660394278",
+      "DisplayName": "CreateVariableAndOutput",
+      "ColorIndex": 0
+    },
+    "57885a28-ad14-4223-bd06-2b63a369029d": {
+      "ProjectGuid": "57885a28-ad14-4223-bd06-2b63a369029d",
+      "DisplayName": "SumMarkAndOutput",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

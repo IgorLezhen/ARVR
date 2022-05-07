@@ -1,0 +1,8 @@
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\bin\Debug\RandomMatrix.exe.config
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\bin\Debug\RandomMatrix.exe
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\bin\Debug\RandomMatrix.pdb
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\obj\Debug\RandomMatrix.csproj.AssemblyReference.cache
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\obj\Debug\RandomMatrix.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\obj\Debug\RandomMatrix.csproj.CoreCompileInputs.cache
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\obj\Debug\RandomMatrix.exe
+E:\ARVRStudy\C#\PracticalWork4.8\RandomMatrix\obj\Debug\RandomMatrix.pdb

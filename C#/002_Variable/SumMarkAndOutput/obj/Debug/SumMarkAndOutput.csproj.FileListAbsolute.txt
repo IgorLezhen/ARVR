@@ -1,0 +1,7 @@
+E:\ARVR_Study\C#\Practical work 2.7\SumMarkAndOutput\bin\Debug\SumMarkAndOutput.exe.config
+E:\ARVR_Study\C#\Practical work 2.7\SumMarkAndOutput\bin\Debug\SumMarkAndOutput.exe
+E:\ARVR_Study\C#\Practical work 2.7\SumMarkAndOutput\bin\Debug\SumMarkAndOutput.pdb
+E:\ARVR_Study\C#\Practical work 2.7\SumMarkAndOutput\obj\Debug\SumMarkAndOutput.csproj.SuggestedBindingRedirects.cache
+E:\ARVR_Study\C#\Practical work 2.7\SumMarkAndOutput\obj\Debug\SumMarkAndOutput.csproj.CoreCompileInputs.cache
+E:\ARVR_Study\C#\Practical work 2.7\SumMarkAndOutput\obj\Debug\SumMarkAndOutput.exe
+E:\ARVR_Study\C#\Practical work 2.7\SumMarkAndOutput\obj\Debug\SumMarkAndOutput.pdb

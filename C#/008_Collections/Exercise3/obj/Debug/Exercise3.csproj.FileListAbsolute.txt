@@ -1,0 +1,8 @@
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\bin\Debug\Exercise3.exe.config
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\bin\Debug\Exercise3.exe
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\bin\Debug\Exercise3.pdb
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\obj\Debug\Exercise3.csproj.SuggestedBindingRedirects.cache
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\obj\Debug\Exercise3.exe
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\obj\Debug\Exercise3.pdb
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise3\obj\Debug\Exercise3.csproj.AssemblyReference.cache

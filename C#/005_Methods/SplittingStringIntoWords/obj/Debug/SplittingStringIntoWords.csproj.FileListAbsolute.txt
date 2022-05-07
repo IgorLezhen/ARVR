@@ -1,0 +1,8 @@
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\bin\Debug\SplittingStringIntoWords.exe.config
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\bin\Debug\SplittingStringIntoWords.exe
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\bin\Debug\SplittingStringIntoWords.pdb
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\obj\Debug\SplittingStringIntoWords.csproj.AssemblyReference.cache
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\obj\Debug\SplittingStringIntoWords.csproj.SuggestedBindingRedirects.cache
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\obj\Debug\SplittingStringIntoWords.csproj.CoreCompileInputs.cache
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\obj\Debug\SplittingStringIntoWords.exe
+E:\ARVR_Study\C#\PracticalWork5.5\SplittingStringIntoWords\obj\Debug\SplittingStringIntoWords.pdb

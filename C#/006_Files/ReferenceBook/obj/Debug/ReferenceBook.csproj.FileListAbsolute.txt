@@ -1,0 +1,16 @@
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\bin\Debug\ReferenceBook.exe.config
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\bin\Debug\ReferenceBook.exe
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\bin\Debug\ReferenceBook.pdb
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.csproj.CoreCompileInputs.cache
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.exe
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.pdb
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.csproj.SuggestedBindingRedirects.cache
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.csproj.CoreCompileInputs.cache
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.exe
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.pdb
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\bin\Debug\ReferenceBook.exe.config
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\bin\Debug\ReferenceBook.exe
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\bin\Debug\ReferenceBook.pdb
+E:\ARVR_Study\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.csproj.AssemblyReference.cache
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\obj\Debug\ReferenceBook.csproj.AssemblyReference.cache

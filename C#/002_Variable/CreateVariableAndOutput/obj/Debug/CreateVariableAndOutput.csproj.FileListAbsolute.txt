@@ -1,0 +1,8 @@
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\bin\Debug\CreateVariableAndOutput.exe.config
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\bin\Debug\CreateVariableAndOutput.exe
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\bin\Debug\CreateVariableAndOutput.pdb
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\obj\Debug\CreateVariableAndOutput.csproj.AssemblyReference.cache
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\obj\Debug\CreateVariableAndOutput.csproj.SuggestedBindingRedirects.cache
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\obj\Debug\CreateVariableAndOutput.csproj.CoreCompileInputs.cache
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\obj\Debug\CreateVariableAndOutput.exe
+E:\ARVR_Study\C#\Practical work 2.7\CreateVariableAndOutput\obj\Debug\CreateVariableAndOutput.pdb

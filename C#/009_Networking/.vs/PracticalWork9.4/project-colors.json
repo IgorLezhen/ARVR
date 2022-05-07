@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4239d98e-0ec0-4ba5-9b90-3dde3b284421": {
+      "ProjectGuid": "4239d98e-0ec0-4ba5-9b90-3dde3b284421",
+      "DisplayName": "TelegramBot",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

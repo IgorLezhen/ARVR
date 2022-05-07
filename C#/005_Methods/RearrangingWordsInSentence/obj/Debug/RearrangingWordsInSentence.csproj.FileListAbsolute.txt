@@ -1,0 +1,8 @@
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\bin\Debug\RearrangingWordsInSentence.exe.config
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\bin\Debug\RearrangingWordsInSentence.exe
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\bin\Debug\RearrangingWordsInSentence.pdb
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\obj\Debug\RearrangingWordsInSentence.csproj.AssemblyReference.cache
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\obj\Debug\RearrangingWordsInSentence.csproj.SuggestedBindingRedirects.cache
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\obj\Debug\RearrangingWordsInSentence.csproj.CoreCompileInputs.cache
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\obj\Debug\RearrangingWordsInSentence.exe
+E:\ARVR_Study\C#\PracticalWork5.5\RearrangingWordsInSentence\obj\Debug\RearrangingWordsInSentence.pdb

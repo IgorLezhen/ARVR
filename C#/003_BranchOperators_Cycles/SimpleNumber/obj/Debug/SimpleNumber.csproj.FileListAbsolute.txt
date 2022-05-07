@@ -1,0 +1,8 @@
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\bin\Debug\SimpleNumber.exe.config
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\bin\Debug\SimpleNumber.exe
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\bin\Debug\SimpleNumber.pdb
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\obj\Debug\SimpleNumber.csproj.AssemblyReference.cache
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\obj\Debug\SimpleNumber.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\obj\Debug\SimpleNumber.csproj.CoreCompileInputs.cache
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\obj\Debug\SimpleNumber.exe
+E:\ARVRStudy\C#\Practical Work 3.10\SimpleNumber\obj\Debug\SimpleNumber.pdb

@@ -1,0 +1,2 @@
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\obj\Release\ReferenceBook.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\PracticalWork6.6\ReferenceBook\obj\Release\ReferenceBook.csproj.CoreCompileInputs.cache

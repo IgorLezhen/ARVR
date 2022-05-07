@@ -1,0 +1,8 @@
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\bin\Debug\MinSequenceElement.exe.config
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\bin\Debug\MinSequenceElement.exe
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\bin\Debug\MinSequenceElement.pdb
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\obj\Debug\MinSequenceElement.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\obj\Debug\MinSequenceElement.csproj.CoreCompileInputs.cache
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\obj\Debug\MinSequenceElement.exe
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\obj\Debug\MinSequenceElement.pdb
+E:\ARVRStudy\C#\PracticalWork4.8\MinSequenceElement\obj\Debug\MinSequenceElement.csproj.AssemblyReference.cache

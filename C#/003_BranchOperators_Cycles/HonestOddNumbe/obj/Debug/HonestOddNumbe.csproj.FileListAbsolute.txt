@@ -1,0 +1,8 @@
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\bin\Debug\HonestOddNumbe.exe.config
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\bin\Debug\HonestOddNumbe.exe
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\bin\Debug\HonestOddNumbe.pdb
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\obj\Debug\HonestOddNumbe.csproj.AssemblyReference.cache
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\obj\Debug\HonestOddNumbe.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\obj\Debug\HonestOddNumbe.csproj.CoreCompileInputs.cache
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\obj\Debug\HonestOddNumbe.exe
+E:\ARVRStudy\C#\Practical Work 3.10\HonestOddNumbe\obj\Debug\HonestOddNumbe.pdb

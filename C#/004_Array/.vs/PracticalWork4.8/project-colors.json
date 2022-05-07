@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "e8f1e326-297a-40af-bc79-bda68588f1d1": {
+      "ProjectGuid": "e8f1e326-297a-40af-bc79-bda68588f1d1",
+      "DisplayName": "GameGuessTheNumber",
+      "ColorIndex": 0
+    },
+    "55691bfa-7495-4465-a87e-0a23bdf3318d": {
+      "ProjectGuid": "55691bfa-7495-4465-a87e-0a23bdf3318d",
+      "DisplayName": "MinSequenceElement",
+      "ColorIndex": 1
+    },
+    "aecc787d-b4fb-4d40-ac5a-14e229bc28ba": {
+      "ProjectGuid": "aecc787d-b4fb-4d40-ac5a-14e229bc28ba",
+      "DisplayName": "RandomMatrix",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

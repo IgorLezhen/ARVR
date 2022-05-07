@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2fe08c76-3f64-417d-be63-096d43603c67": {
+      "ProjectGuid": "2fe08c76-3f64-417d-be63-096d43603c67",
+      "DisplayName": "HonestOddNumbe",
+      "ColorIndex": 0
+    },
+    "e3f32952-97f6-4dde-a6b5-580d3c80645b": {
+      "ProjectGuid": "e3f32952-97f6-4dde-a6b5-580d3c80645b",
+      "DisplayName": "SumCardsGameBlackjack",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "b9a8467b-e1f4-412b-933b-d00d6f8f93a3": {
+      "ProjectGuid": "b9a8467b-e1f4-412b-933b-d00d6f8f93a3",
+      "DisplayName": "SimpleNumber",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Person name="Кривленя Артем Петрович">
+  <Address>
+    <Street>пр. Крайний</Street>
+    <FlatNumber>54</FlatNumber>
+  </Address>
+  <Phones>
+    <MobilePhone>456543</MobilePhone>
+    <FlatPhone>123456</FlatPhone>
+  </Phones>
+</Person>

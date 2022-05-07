@@ -1,0 +1,16 @@
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\bin\Debug\Exercise4.exe.config
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\bin\Debug\Exercise4.exe
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\bin\Debug\Exercise4.pdb
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.csproj.SuggestedBindingRedirects.cache
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.csproj.CoreCompileInputs.cache
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.exe
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.pdb
+F:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.csproj.AssemblyReference.cache
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\bin\Debug\Exercise4.exe.config
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\bin\Debug\Exercise4.exe
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\bin\Debug\Exercise4.pdb
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.csproj.AssemblyReference.cache
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.csproj.SuggestedBindingRedirects.cache
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.csproj.CoreCompileInputs.cache
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.exe
+G:\ARVR_Study\C#\PracticalWork8.6\Exercise4\obj\Debug\Exercise4.pdb

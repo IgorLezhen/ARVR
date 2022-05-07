@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f736ea30-a4dd-42cc-b05c-d3805952b9bb": {
+      "ProjectGuid": "f736ea30-a4dd-42cc-b05c-d3805952b9bb",
+      "DisplayName": "SplittingStringIntoWords",
+      "ColorIndex": 0
+    },
+    "085ee1f7-9c1d-4c4c-b291-c6e41025d7e9": {
+      "ProjectGuid": "085ee1f7-9c1d-4c4c-b291-c6e41025d7e9",
+      "DisplayName": "RearrangingWordsInSentence",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

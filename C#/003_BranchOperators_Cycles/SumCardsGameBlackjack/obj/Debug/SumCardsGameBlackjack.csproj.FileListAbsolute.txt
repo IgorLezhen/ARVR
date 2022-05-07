@@ -1,0 +1,8 @@
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\bin\Debug\SumCardsGameBlackjack.exe.config
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\bin\Debug\SumCardsGameBlackjack.exe
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\bin\Debug\SumCardsGameBlackjack.pdb
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\obj\Debug\SumCardsGameBlackjack.csproj.SuggestedBindingRedirects.cache
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\obj\Debug\SumCardsGameBlackjack.csproj.CoreCompileInputs.cache
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\obj\Debug\SumCardsGameBlackjack.exe
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\obj\Debug\SumCardsGameBlackjack.pdb
+E:\ARVRStudy\C#\Practical Work 3.10\SumCardsGameBlackjack\obj\Debug\SumCardsGameBlackjack.csproj.AssemblyReference.cache
