@@ -5,9 +5,91 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TelegramBot"
         mc:Ignorable="d"
-        Title="Window" Height="450" Width="800">
+        Title="Window" 
+        Height="480" 
+        Width="854"
+        
+        MinHeight="360"
+        MinWidth="640"
+        
+        MaxHeight="720"
+        MaxWidth="1280"
+        >
     <Grid>
-        <Button Content="Кнопка" HorizontalAlignment="Left" Margin="179,130,0,0" VerticalAlignment="Top"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="135"/>
+            <RowDefinition Height="5"/>
+        </Grid.RowDefinitions>
+
+        <Border BorderBrush="Black"
+                Margin="5"
+                CornerRadius="5"
+                Padding="5"
+                BorderThickness="1"
+                Grid.Row="1"
+                Grid.RowSpan="3"
+                Grid.Column="1">
+
+            <ListBox HorizontalAlignment="Stretch"
+                         VerticalAlignment="Stretch"
+                         x:Name="userList">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text = "{Binding Nick}"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Border>
+
+        <Border BorderBrush="Black"
+                Margin="5"
+                CornerRadius="5"
+                Padding="5"
+                BorderThickness="1"
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                Grid.Column="2">
+
+            <ListBox HorizontalAlignment="Stretch"
+                     VerticalAlignment="Stretch" 
+                     x:Name="concreteUsersChat"
+                     ItemsSource="{Binding ElementName=userList, Path=SelectedItem.Messages}"
+                     FontSize="20">
+            </ListBox>
+        </Border>
+
+        <Border BorderBrush="Black"
+                Margin="5"
+                CornerRadius="5"
+                Padding="5"
+                BorderThickness="1"
+                Grid.Row="3"
+                Grid.Column="2">
+            <StackPanel>
+                <TextBox Height="60"
+                             x:Name="txtBxSendMsg"
+                             FontSize="20"
+                             TextWrapping="Wrap"
+                             AutoWordSelection="True"
+                             Margin="5"
+                             VerticalAlignment="Bottom"/>
+                <Button  Content="Отправить"
+                             x:Name="btnSendMsg" 
+                             Margin="5"
+                             FontSize="20"/>
+            </StackPanel>
+        </Border>
+
+
 
     </Grid>
 </Window>
