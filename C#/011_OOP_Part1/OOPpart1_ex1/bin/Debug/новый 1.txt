@@ -1,0 +1,137 @@
+<Window x:Class="OOPpart1_ex1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOPpart1_ex1"
+        mc:Ignorable="d"
+        Title="Банк «А»" Height="185" Width="800" MaxWidth="850" MaxHeight="250" MinWidth="800" MinHeight="185" FontFamily="Times New Roman">
+    <Grid Margin="0,0,0,0" Width="800">
+
+<!--Background="#FFFFFFFF"-->#FFEFEFEF
+
+        <ListView x:Name="clientList" Margin="10,10,270,10" FontFamily="Times New Roman" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Фамилия" 
+                                    DisplayMemberBinding="{Binding Surname}"/>
+                    <GridViewColumn Header="Имя" 
+                                    DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Отчество" 
+                                    DisplayMemberBinding="{Binding Patronymic}"/>
+                    <GridViewColumn Header="Номер телефона" 
+                                    DisplayMemberBinding="{Binding PhoneNumber}"/>
+                    <GridViewColumn Header="Серия и номер паспорта" 
+                                    
+                                    DisplayMemberBinding="{Binding IdPassport}">
+
+                    </GridViewColumn>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <RadioButton x:Name="rbtnConsultant"
+                     Content="Консультант"
+                     HorizontalAlignment="Left" 
+                     Margin="535,144,0,0" 
+                     VerticalAlignment="Top"
+                     IsChecked="True" Height="15" Width="87" FontFamily="Times New Roman"/>
+        <Button x:Name="btnRedactor" 
+                Content="Редактировать" 
+                HorizontalAlignment="Left" 
+                Margin="670,144,0,0" 
+                VerticalAlignment="Top" Height="15" Width="120" FontFamily="Times New Roman" Padding="0,0,0,0"/>
+        <Label Content="Данные о клиенте:"
+               Margin="535,10,10,145"
+               FontFamily="Times New Roman" 
+               FlowDirection="LeftToRight" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Padding="0,0,0,0" 
+               Height="15"/>
+        <Label Content="Фамилия:"
+               Margin="535,30,210,125"
+               FontFamily="Times New Roman" 
+               FlowDirection="LeftToRight" 
+               HorizontalContentAlignment="Left" 
+               VerticalContentAlignment="Center" 
+               Padding="0,0,0,0"
+               Height="15" Width="55"/>
+        <Label Content="Имя:"
+               Margin="535,50,240,105"
+               Width="25"
+               FontFamily="Times New Roman" 
+               FlowDirection="LeftToRight" 
+               HorizontalContentAlignment="Left" 
+               VerticalContentAlignment="Center" 
+               Padding="0,0,0,0" 
+               Height="15"/>
+        <Label Content="Отчество:"
+               Margin="535,70,210,85"
+               Width="55"
+               FontFamily="Times New Roman" 
+               FlowDirection="LeftToRight" 
+               HorizontalContentAlignment="Left" 
+               VerticalContentAlignment="Center" 
+               Padding="0,0,0,0" 
+               Height="15"/>
+        <Label Content="Номер телефона:" 
+               Margin="535,90,0,65"
+               FontFamily="Times New Roman" 
+               Width="90" 
+               FlowDirection="LeftToRight" 
+               HorizontalContentAlignment="Left" 
+               VerticalContentAlignment="Center" 
+               Padding="0,0,0,0" 
+               Height="15" HorizontalAlignment="Left"/>
+        <Label Content="Серия и номер паспорта:"
+               Margin="535,110,135,45"
+               FontFamily="Times New Roman" 
+               FlowDirection="LeftToRight" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Padding="0,0,0,0" 
+               Height="15"/>
+        <TextBox x:Name="TbxSurname"
+                 Text=""
+                 Margin="670,30,10,0"
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Height="15"
+                 VerticalContentAlignment="Center" 
+                 FontFamily="Times New Roman" Width="120"/>
+        <TextBox x:Name="TbxName"
+                 Text=""
+                 Margin="670,50,10,0"
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Height="15"
+                 VerticalContentAlignment="Center" 
+                 FontFamily="Times New Roman" Width="120"/>
+        <TextBox x:Name="TbxPatronymic"
+                 Text=""
+                 Margin="670,70,10,0"
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Height="15"
+                 VerticalContentAlignment="Center" 
+                 FontFamily="Times New Roman" Width="120"/>
+        <TextBox x:Name="TbxPhoneNumber"
+                 Text=""
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Height="15"
+                 VerticalContentAlignment="Center" 
+                 FontFamily="Times New Roman" Width="120" Margin="670,90,10,0"/>
+        <TextBox x:Name="TbxIdPassport"
+                 Text=""
+                 Margin="670,110,10,0"
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Height="15"
+                 VerticalContentAlignment="Center" 
+                 FontFamily="Times New Roman" Width="120"/>
+
+    </Grid>
+</Window>
