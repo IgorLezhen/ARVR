@@ -1,4 +1,6 @@
-﻿namespace BankA
+﻿using System.Collections.Generic;
+
+namespace BankA
 {
     /*
     Класс Клиент используется для заполнения листа client данными, загруженными из файла _base.json, с последующим формированием листа consultant с методом замены номера телефона на символ *
@@ -71,6 +73,17 @@
             this.TypeReplace = TypeReplace;
             this.AutorReplace = AutorReplace;
         }
+
+        public class SortBySurname : IComparer<Client>
+        {
+            public int Compare (Client x, Client y)
+            {
+                Client X = (Client)x;
+                Client Y = (Client)y;
+                return string.Compare(X.Surname, Y.Surname);
+            }
+        }
+
         #endregion
     }
 }

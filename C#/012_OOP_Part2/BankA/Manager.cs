@@ -1,4 +1,6 @@
-﻿namespace BankA
+﻿using System.Collections.Generic;
+
+namespace BankA
 {
     internal class Manager
     {
@@ -51,6 +53,16 @@
             this.DataReplace = DataReplace;
             this.TypeReplace = TypeReplace;
             this.AutorReplace = AutorReplace;
+        }
+
+        public class SortBySurname : IComparer<Manager>
+        {
+            public int Compare(Manager x, Manager y)
+            {
+                Manager X = (Manager)x;
+                Manager Y = (Manager)y;
+                return string.Compare(X.Surname, Y.Surname);
+            }
         }
     }
 }

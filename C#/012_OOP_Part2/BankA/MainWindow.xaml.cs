@@ -23,8 +23,9 @@ namespace BankA
         {
             InitializeComponent();
             //загрузка данных из файла и формирование листов client, consultant и manager
-            json = File.ReadAllText("_base.json");
+             json = File.ReadAllText("_base.json");
             client = JsonConvert.DeserializeObject<List<Client>>(json);
+            client.Sort(new Client.SortBySurname());//сортировка по фамилии
             for (int item = 0; item <= client.Count - 1; item++)
             {
                 consultant.Add(new Consultant(client[item].Surname, client[item].Name, client[item].Patronymic, client[item].PhoneNumber, client[item].IdPassport,
@@ -47,7 +48,7 @@ namespace BankA
             TbxIdPassport.Background = Brushes.WhiteSmoke;
             btnAdd.IsEnabled = false;
             clientList.ItemsSource = consultant;
-            SotrudnikChange();//
+            SotrudnikChange();//метод переключения сотрудников
         }
         // формат приложения для работы менеджера
         private void RbtnManagerAction(object sender, RoutedEventArgs e)
@@ -139,6 +140,7 @@ namespace BankA
                     manager[clientList.SelectedIndex].TypeReplace = "Изменения";
                     manager[clientList.SelectedIndex].AutorReplace = "Консультант";
                     SaveData();// обновление и сохранение данных
+
                 }
                 //замена данных в листах
                 else if (RbtnManager.IsChecked == true)
@@ -192,9 +194,19 @@ namespace BankA
         //Метод обновления данных для отображения в ListView и сохранения в файл
         private void SaveData()
         {
+            SortBy();//сортировка по фамилии
             clientList.Items.Refresh();
             json = JsonConvert.SerializeObject(client);
             File.WriteAllText("_base.json", json);
         }
+
+        private void SortBy()
+        {
+            client.Sort(new Client.SortBySurname());
+            consultant.Sort(new Manager.SortBySurname());
+            manager.Sort(new Manager.SortBySurname());
+        }
+
+        
     }
 }
