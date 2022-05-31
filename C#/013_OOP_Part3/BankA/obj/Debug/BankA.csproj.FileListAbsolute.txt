@@ -1,0 +1,16 @@
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\bin\Debug\BankA.exe.config
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\bin\Debug\BankA.exe
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\bin\Debug\BankA.pdb
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.csproj.AssemblyReference.cache
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.csproj.SuggestedBindingRedirects.cache
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\MainWindow.g.cs
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\App.g.cs
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA_MarkupCompile.cache
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA_MarkupCompile.lref
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\MainWindow.baml
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.g.resources
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.Properties.Resources.resources
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.csproj.GenerateResource.cache
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.csproj.CoreCompileInputs.cache
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.exe
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.pdb
