@@ -5,8 +5,77 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BankA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Банк «А»" Height="450" Width="800" 
+                         MinHeight="250" MinWidth="400"
+                         MaxHeight="900" MaxWidth="1600">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <!--Панель данных клиента-->
+        <ListView x:Name="clientList" Grid.Column="1" Grid.Row="1" Grid.RowSpan="8">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="№"
+                                    DisplayMemberBinding="{Binding Num}" Width="20" />
+                    <GridViewColumn Header="Фамилия"
+                                    DisplayMemberBinding="{Binding Surname}" Width="85" />
+                    <GridViewColumn Header="Имя"
+                                    DisplayMemberBinding="{Binding Name}" Width="85" />
+                    <GridViewColumn Header="Отчество"
+                                    DisplayMemberBinding="{Binding Patronymic}" Width="85" />
+                    <GridViewColumn Header="Номер счёта"
+                                    DisplayMemberBinding="{Binding NumAccount}" Width="85" />
+                    <GridViewColumn Header="Сумма на счёте"
+                                    DisplayMemberBinding="{Binding SumAccount}" Width="100" />
+                    <GridViewColumn Header="Статус счёта"
+                                    DisplayMemberBinding="{Binding StatusAccount}" Width="85" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!--Департаменты по клиентам-->
+        <ComboBox Grid.Column="2" Margin="10,0,0,2" Grid.Row="1" Grid.ColumnSpan="2">
+            <TextBlock>Физическое лицо</TextBlock>
+            <TextBlock>Юридическое лицо</TextBlock>
+            <TextBlock>VIP</TextBlock>
+        </ComboBox>
+        <!--Фамилия клиента-->
+        <Label Grid.Column="2" Content="Фамилия:"  Grid.Row="2" Margin="20,2,0,2" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="TxtBxSurname" Grid.Column="3" Grid.Row="2" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <!--Имя клиента-->
+        <Label Grid.Column="2" Content="Имя:" Grid.Row="3" Margin="20,2,0,2" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="TxtBxname" Grid.Column="3" Grid.Row="3" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <!--Отчество клиента-->
+        <Label Grid.Column="2" Content="Отчество:" Grid.Row="4" Margin="20,2,0,2" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="TxtBxPatronymic" Grid.Column="3" Grid.Row="4" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <!--Открыть счёт клиента-->
+        <Button Grid.Column="2" Content="Открыть счёт"  Margin="10,2,5,2" Grid.Row="5"/>
+        <!--Закрыть счёт клиента-->
+        <Button Grid.Column="3" Content="Закрыть счёт" Margin="0,2,0,2" Grid.Row="5"/>
+        <!--Первести со счёта на счёт-->
+        <Label Grid.Column="2" Content="Номер счёта:" Grid.Row="6" Margin="20,2,0,2" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="TxtBxTransfer" Grid.Column="3" Grid.Row="6" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <!--Перевод-->
+        <Button Grid.Column="2" Content="Перевод" Margin="10,2,0,2" Grid.Row="7" Grid.ColumnSpan="2"/>
+
+
+
+
     </Grid>
 </Window>
