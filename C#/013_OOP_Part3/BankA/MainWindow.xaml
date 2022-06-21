@@ -33,7 +33,7 @@
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
         <!--Панель данных клиента-->
-        <ListView x:Name="clientList" Grid.Column="1" Grid.Row="1" Grid.RowSpan="12">
+        <ListView x:Name="clientList" Grid.Column="1" Grid.Row="1" Grid.RowSpan="12" SelectionChanged="ItemSelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="№"
@@ -71,22 +71,22 @@
         <!--Открыть счёт клиента-->
         <Button Grid.Column="2" Content="Открыть счёт"  Margin="10,2,5,2" Grid.Row="5" Click="btnOpenAction"/>
         <!--Закрыть счёт клиента-->
-        <Button Grid.Column="3" Content="Закрыть счёт" Margin="0,2,0,2" Grid.Row="5"/>
+        <Button Grid.Column="3" Content="Закрыть счёт" Margin="0,2,0,2" Grid.Row="5" Click="btnCloseAccountAction"/>
         <!--Текущий номер счёта-->
         <TextBlock Grid.Column="2" Grid.Row="6" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Номер счёта:"/>
         <TextBlock Grid.Column="3" Grid.Row="6" Margin="0,2,0,2" TextAlignment="Right" Padding="0,0,0,0" x:Name="TxtBlockNumAccount" />
         <!--Сумма пополнения счёта-->
         <TextBlock Grid.Column="2" Grid.Row="7" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Сумма пополнения:"/>
-        <TextBox x:Name="TxtBxSumBalans" Grid.Column="3" Grid.Row="7" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <TextBox x:Name="TxtBxSumBalans" Grid.Column="3" Grid.Row="7" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
         <!--Пополнение счёта-->
-        <Button Grid.Column="2" Content="Пополнить" Margin="10,2,0,2" Grid.Row="8" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="2" Content="Пополнить" Margin="10,2,0,2" Grid.Row="8" Grid.ColumnSpan="2" Click="btnTopUpAccountAction"/>
         <!--Первести со счёта на счёт-->
         <TextBlock Grid.Column="2" Grid.Row="9" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Номер счёта:"/>
-        <TextBox x:Name="TxtBxTransfer" Grid.Column="3" Grid.Row="9" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <TextBox x:Name="TxtBxTransfer" Grid.Column="3" Grid.Row="9" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
         <!--Сумма перевода-->
         <TextBlock Grid.Column="2" Grid.Row="10" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Сумма перевода:"/>
-        <TextBox x:Name="TxtBxSumTransfer" Grid.Column="3" Grid.Row="10" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <TextBox x:Name="TxtBxSumTransfer" Grid.Column="3" Grid.Row="10" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
         <!--Перевод-->
-        <Button Grid.Column="2" Content="Перевод" Margin="10,2,0,2" Grid.Row="11" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="2" Content="Перевод" Margin="10,2,0,2" Grid.Row="11" Grid.ColumnSpan="2" FlowDirection="LeftToRight" Click="btnSumTransferAction"/>
      </Grid>
 </Window>

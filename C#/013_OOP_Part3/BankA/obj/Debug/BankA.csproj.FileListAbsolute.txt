@@ -16,3 +16,4 @@ G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.pdb
 G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\bin\Debug\Newtonsoft.Json.dll
 G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\bin\Debug\Newtonsoft.Json.xml
 G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.csproj.CopyComplete
+G:\_SKILLBOX\ARVR\C#\013_OOP_Part3\BankA\obj\Debug\BankA.csproj.AssemblyReference.cache
