@@ -1,4 +1,4 @@
-﻿namespace BankA
+﻿namespace BankA_Exercise2
 {
     /// <summary>
     /// Класс Client, формирует базу клиентов
@@ -26,13 +26,13 @@
         /// <param name="patronymic">Отчество клиента</param>
         /// <param name="sumAccount">Баланс счёта</param>
         /// <param name="statusAccount">Статус счёта</param>
-        public Client (
+        public Client(
             int id,
             string type,
             string surname,
             string name,
             string patronymic,
-            
+
             T sumAccount,
             string statusAccount
             )
@@ -42,7 +42,7 @@
             Surname = surname;
             Name = name;
             Patronymic = patronymic;
-            
+
             SumAccount = sumAccount;
             StatusAccount = statusAccount;
         }

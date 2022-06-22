@@ -1,13 +1,13 @@
-﻿namespace BankA
+﻿namespace BankA_Exercise2
 {
     /// <summary>
-    /// Класс VIP клиентов, наследуется от класса Client
+    /// Класс Entity клиентов (юридические лица), наследуется от класса Client
     /// </summary>
     /// <typeparam name="T">Тип переменной</typeparam>
-    internal class VIP<T> : Client<T>
+    internal class Entity<T> : Client<T>
     {
         public new string NumAccount { get; set; }
-        public VIP(
+        public Entity(
             int Id,
             string Type,
             string Surname,
@@ -22,7 +22,7 @@
                   Surname,
                   Name,
                   Patronymic,
-                  
+
                   SumAccount,
                   StatusAccount)
         {

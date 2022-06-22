@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BankA
+﻿namespace BankA
 {
     /// <summary>
     /// Класс Individual клиентов (физические лица), наследуется от класса Client

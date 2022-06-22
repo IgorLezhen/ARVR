@@ -1,4 +1,4 @@
-﻿namespace BankA
+﻿namespace BankA_Exercise2
 {
     /// <summary>
     /// Класс VIP клиентов, наследуется от класса Client
@@ -22,7 +22,7 @@
                   Surname,
                   Name,
                   Patronymic,
-                  
+
                   SumAccount,
                   StatusAccount)
         {

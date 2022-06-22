@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BankA
+﻿namespace BankA
 {
     /// <summary>
     /// Класс Entity клиентов (юридические лица), наследуется от класса Client
