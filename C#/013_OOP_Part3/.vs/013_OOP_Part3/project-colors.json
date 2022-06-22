@@ -10,7 +10,12 @@
       "ProjectGuid": "d0ab9739-13be-48b7-9ca8-14622bd292e6",
       "DisplayName": "BankA_Exercise2",
       "ColorIndex": 1
+    },
+    "de15defa-e588-4313-ac15-55ce3109f773": {
+      "ProjectGuid": "de15defa-e588-4313-ac15-55ce3109f773",
+      "DisplayName": "BankA_Exercise3",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
