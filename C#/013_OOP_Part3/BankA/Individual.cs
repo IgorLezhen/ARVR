@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace BankA
 {
+    /// <summary>
+    /// Класс Individual клиентов (физические лица), наследуется от класса Client
+    /// </summary>
+    /// <typeparam name="T">Тип переменной</typeparam>
     class Individual<T> : Client<T>
     {
         public new string NumAccount { get ;  set ; }

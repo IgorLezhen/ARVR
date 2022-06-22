@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace BankA
 {
+    /// <summary>
+    /// Класс Entity клиентов (юридические лица), наследуется от класса Client
+    /// </summary>
+    /// <typeparam name="T">Тип переменной</typeparam>
     internal class Entity<T> : Client<T>
     {
         public new string NumAccount { get; set; }

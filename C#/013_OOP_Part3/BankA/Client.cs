@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace BankA
 {
+    /// <summary>
+    /// Класс Client, формирует базу клиентов
+    /// </summary>
+    /// <typeparam name="T">Тип переменной</typeparam>
     class Client<T>
     {
         private string numAccount;
@@ -18,7 +22,16 @@ namespace BankA
         public string NumAccount { get { return ClientNumAccount(); } set { numAccount = value; } }
         public T SumAccount { get; set; }
         public string StatusAccount { get; set; }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id">Id клиента</param>
+        /// <param name="type">Тип клиента</param>
+        /// <param name="surname">Фамилия клиента</param>
+        /// <param name="name">Имя клиента</param>
+        /// <param name="patronymic">Отчество клиента</param>
+        /// <param name="sumAccount">Баланс счёта</param>
+        /// <param name="statusAccount">Статус счёта</param>
         public Client (
             int id,
             string type,
@@ -39,7 +52,10 @@ namespace BankA
             SumAccount = sumAccount;
             StatusAccount = statusAccount;
         }
-
+        /// <summary>
+        /// Задание номера счёта
+        /// </summary>
+        /// <returns></returns>
         public string ClientNumAccount()
         {
             return Id.ToString().PadLeft(8, '0');
