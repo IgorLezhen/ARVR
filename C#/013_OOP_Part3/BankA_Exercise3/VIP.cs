@@ -15,6 +15,7 @@
             string Patronymic,
             string NumAccount,
             T SumAccount,
+            string TypeAccount,
             string StatusAccount)
             : base(
                   Id,
@@ -22,8 +23,8 @@
                   Surname,
                   Name,
                   Patronymic,
-
                   SumAccount,
+                  TypeAccount,
                   StatusAccount)
         {
             this.NumAccount = NumAccount;

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BankA_Exercise2"
         mc:Ignorable="d"
-        Title="Банк «А»" Height="450" Width="800" 
+        Title="Банк «А»" Height="450" Width="980" 
                          MinHeight="250" MinWidth="400"
                          MaxHeight="900" MaxWidth="1600" WindowStartupLocation="CenterScreen">
     <Grid>
@@ -29,11 +29,12 @@
             <RowDefinition Height="25"/>
             <RowDefinition Height="25"/>
             <RowDefinition Height="25"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="1*"/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
         <!--Панель данных клиента-->
-        <ListView x:Name="clientList" Grid.Column="1" Grid.Row="1" Grid.RowSpan="12" SelectionChanged="ItemSelectionChanged">
+        <ListView x:Name="clientList" Grid.Column="1" Grid.Row="1" Grid.RowSpan="13" SelectionChanged="ItemSelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="№"
@@ -48,13 +49,15 @@
                                     DisplayMemberBinding="{Binding NumAccount}" Width="85" />
                     <GridViewColumn Header="Баланс счёта"
                                     DisplayMemberBinding="{Binding SumAccount}" Width="100" />
+                    <GridViewColumn Header="Тип счёта"
+                                    DisplayMemberBinding="{Binding TypeAccount}" Width="125" />
                     <GridViewColumn Header="Статус счёта"
                                     DisplayMemberBinding="{Binding StatusAccount}" Width="85" />
                 </GridView>
             </ListView.View>
         </ListView>
         <!--Департаменты по клиентам-->
-        <ComboBox x:Name="ClientType" Grid.Column="2" Margin="10,0,0,2" Grid.Row="1" Grid.ColumnSpan="2" Text="567" SelectionChanged="ClientTypeSelectChangeAction">
+        <ComboBox x:Name="ClientType" Grid.Column="2" Margin="10,0,0,2" Grid.Row="1" Grid.ColumnSpan="2" SelectionChanged="ClientTypeSelectChangeAction">
             <TextBlock Text="Физическое лицо"/>
             <TextBlock Text="Юридическое лицо"/>
             <TextBlock Text="VIP"/>
@@ -68,25 +71,30 @@
         <!--Отчество клиента-->
         <TextBlock Grid.Column="2" Grid.Row="4" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Отчество:"/>
         <TextBox x:Name="TxtBxPatronymic" Grid.Column="3" Grid.Row="4" Margin="0,2,0,2" TextWrapping="Wrap" Text=""/>
+        <!--Тип счёта-->
+        <ComboBox x:Name="CbxTypeAccount" Grid.Column="2" Margin="10,0,0,2" Grid.Row="5" Grid.ColumnSpan="2">
+            <TextBlock Text="Депозитный счёт"/>
+            <TextBlock Text="Не депозитный счёт"/>
+        </ComboBox>
         <!--Открыть счёт клиента-->
-        <Button Grid.Column="2" Content="Открыть счёт"  Margin="10,2,5,2" Grid.Row="5" Click="btnOpenAction"/>
+        <Button Grid.Column="2" Content="Открыть счёт"  Margin="10,2,5,2" Grid.Row="6" Click="btnOpenAction"/>
         <!--Закрыть счёт клиента-->
-        <Button Grid.Column="3" Content="Закрыть счёт" Margin="0,2,0,2" Grid.Row="5" Click="btnCloseAccountAction"/>
+        <Button Grid.Column="3" Content="Закрыть счёт" Margin="0,2,0,2" Grid.Row="6" Click="btnCloseAccountAction"/>
         <!--Текущий номер счёта-->
-        <TextBlock Grid.Column="2" Grid.Row="6" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Номер счёта:"/>
-        <TextBlock Grid.Column="3" Grid.Row="6" Margin="0,2,0,2" TextAlignment="Right" Padding="0,0,0,0" x:Name="TxtBlockNumAccount" />
+        <TextBlock Grid.Column="2" Grid.Row="7" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Номер счёта:"/>
+        <TextBlock Grid.Column="3" Grid.Row="7" Margin="0,2,0,2" TextAlignment="Right" Padding="0,0,0,0" x:Name="TxtBlockNumAccount" />
         <!--Сумма пополнения счёта-->
-        <TextBlock Grid.Column="2" Grid.Row="7" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Сумма пополнения:"/>
-        <TextBox x:Name="TxtBxSumBalans" Grid.Column="3" Grid.Row="7" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
+        <TextBlock Grid.Column="2" Grid.Row="8" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Сумма пополнения:"/>
+        <TextBox x:Name="TxtBxSumBalans" Grid.Column="3" Grid.Row="8" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
         <!--Пополнение счёта-->
-        <Button Grid.Column="2" Content="Пополнить" Margin="10,2,0,2" Grid.Row="8" Grid.ColumnSpan="2" Click="btnTopUpAccountAction"/>
+        <Button Grid.Column="2" Content="Пополнить" Margin="10,2,0,2" Grid.Row="9" Grid.ColumnSpan="2" Click="btnTopUpAccountAction"/>
         <!--Первести со счёта на счёт-->
-        <TextBlock Grid.Column="2" Grid.Row="9" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Номер счёта:"/>
-        <TextBox x:Name="TxtBxTransfer" Grid.Column="3" Grid.Row="9" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
+        <TextBlock Grid.Column="2" Grid.Row="10" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Номер счёта:"/>
+        <TextBox x:Name="TxtBxTransfer" Grid.Column="3" Grid.Row="10" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
         <!--Сумма перевода-->
-        <TextBlock Grid.Column="2" Grid.Row="10" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Сумма перевода:"/>
-        <TextBox x:Name="TxtBxSumTransfer" Grid.Column="3" Grid.Row="10" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
+        <TextBlock Grid.Column="2" Grid.Row="11" Margin="20,2,0,2" TextAlignment="Left" Padding="0,0,0,0" Text="Сумма перевода:"/>
+        <TextBox x:Name="TxtBxSumTransfer" Grid.Column="3" Grid.Row="11" Margin="0,2,0,2" TextWrapping="Wrap" Text="" FlowDirection="RightToLeft"/>
         <!--Перевод-->
-        <Button Grid.Column="2" Content="Перевод" Margin="10,2,0,2" Grid.Row="11" Grid.ColumnSpan="2" FlowDirection="LeftToRight" Click="btnSumTransferAction"/>
+        <Button Grid.Column="2" Content="Перевод" Margin="10,2,0,2" Grid.Row="12" Grid.ColumnSpan="2" FlowDirection="LeftToRight" Click="btnSumTransferAction"/>
     </Grid>
 </Window>

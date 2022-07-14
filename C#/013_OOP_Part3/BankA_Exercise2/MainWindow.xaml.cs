@@ -56,15 +56,15 @@ namespace BankA_Exercise2
                 {
                     case "Физическое лицо":
                         individual.Add(new Individual<int>(individual.Count + 1, "Физическое лицо", client[item].Surname, client[item].Name, client[item].Patronymic,
-                                                           client[item].NumAccount, client[item].SumAccount, client[item].StatusAccount));
+                                                           client[item].NumAccount, client[item].SumAccount, client[item].TypeAccount, client[item].StatusAccount));
                         break;
                     case "Юридическое лицо":
                         entity.Add(new Entity<int>(individual.Count + 1, "Юридическое лицо", client[item].Surname, client[item].Name, client[item].Patronymic,
-                                                           client[item].NumAccount, client[item].SumAccount, client[item].StatusAccount));
+                                                           client[item].NumAccount, client[item].SumAccount, client[item].TypeAccount, client[item].StatusAccount));
                         break;
                     case "VIP":
                         vip.Add(new VIP<int>(individual.Count + 1, "VIP", client[item].Surname, client[item].Name, client[item].Patronymic,
-                                                           client[item].NumAccount, client[item].SumAccount, client[item].StatusAccount));
+                                                           client[item].NumAccount, client[item].SumAccount, client[item].TypeAccount, client[item].StatusAccount));
                         break;
                 }
             }
@@ -167,15 +167,17 @@ namespace BankA_Exercise2
         {
             //Буферная переменная баланса счёта
             int sumAccount = 0;
+            string typeAccount = String.Empty;
             //Задание переменной баланса счёта с которого переводятся средства
             for (int item = 0; item <= client.Count - 1; item++)
             {
                 if (client[item].NumAccount == numOutAccount)
                 {
                     sumAccount = client[item].SumAccount;
+                    typeAccount = client[item].TypeAccount;
                 }
             }
-            //Перевод средств на заданный счёт с проверкой о возможности перевода по типам клиента, наличии средств и открытого счёта
+            //Перевод средств на заданный счёт с проверкой о возможности перевода по типам клиента и счёта, наличии средств и открытого счёта
             for (int item = 0; item <= client.Count - 1; item++)
             {
                 if (client[item].NumAccount == numAccount)
@@ -183,7 +185,7 @@ namespace BankA_Exercise2
                     switch (type)
                     {
                         case 0:
-                            if (client[item].Type == "Физическое лицо" && Convert.ToInt32(TxtBxSumTransfer.Text) <= sumAccount && client[item].StatusAccount == "Открыт")
+                            if (client[item].Type == "Физическое лицо" && Convert.ToInt32(TxtBxSumTransfer.Text) <= sumAccount && client[item].StatusAccount == "Открыт" && typeAccount == "Не депозитный счёт")
                             {
                                 SubtractionSumTransfer(numOutAccount);
                                 client[item].SumAccount += Convert.ToInt32(TxtBxSumTransfer.Text);
@@ -191,7 +193,7 @@ namespace BankA_Exercise2
                             else { MessageBox.Show("Данный перевод недоступен", "Внимание!"); }
                             break;
                         case 1:
-                            if (client[item].Type != "VIP" && Convert.ToInt32(TxtBxSumTransfer.Text) <= sumAccount && client[item].StatusAccount == "Открыт")
+                            if (client[item].Type != "VIP" && Convert.ToInt32(TxtBxSumTransfer.Text) <= sumAccount && client[item].StatusAccount == "Открыт" && typeAccount == "Не депозитный счёт")
                             {
                                 SubtractionSumTransfer(numOutAccount);
                                 client[item].SumAccount += Convert.ToInt32(TxtBxSumTransfer.Text);
@@ -199,7 +201,7 @@ namespace BankA_Exercise2
                             else { MessageBox.Show("Данная перевод недоступен", "Внимание!"); }
                             break;
                         case 2:
-                            if (Convert.ToInt32(TxtBxSumTransfer.Text) <= sumAccount && client[item].StatusAccount == "Открыт")
+                            if (Convert.ToInt32(TxtBxSumTransfer.Text) <= sumAccount && client[item].StatusAccount == "Открыт" && typeAccount == "Не депозитный счёт")
                             {
                                 SubtractionSumTransfer(numOutAccount);
                                 client[item].SumAccount += Convert.ToInt32(TxtBxSumTransfer.Text);
@@ -237,6 +239,7 @@ namespace BankA_Exercise2
         {
             //Проверка заполненных данных
             if (ClientType.SelectedIndex == -1) { MessageBox.Show("Выберите тип клиента", "Ошибка данных"); }
+            else if (CbxTypeAccount.SelectedIndex == -1) { MessageBox.Show("Выберите тип счёта", "Ошибка данных"); }
             else
             {
                 //Проверка заполненных данных
@@ -251,6 +254,7 @@ namespace BankA_Exercise2
                         TxtBxName.Text,
                         TxtBxPatronymic.Text,
                         0,
+                        CbxTypeAccount.Text,
                         "Открыт"));
                     ClearData();
                     ClientsTypeAdd();
@@ -400,6 +404,6 @@ namespace BankA_Exercise2
             else
             { MessageBox.Show("Введите данные перевода", "Ошибка данных"); }
         }
-        #endregion
+        #endregion 
     }
 }

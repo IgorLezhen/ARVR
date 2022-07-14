@@ -15,6 +15,7 @@
         public string Patronymic { get; set; }
         public string NumAccount { get { return ClientNumAccount(); } set { numAccount = value; } }
         public T SumAccount { get; set; }
+        public string TypeAccount { get; set; }
         public string StatusAccount { get; set; }
         /// <summary>
         /// 
@@ -32,8 +33,8 @@
             string surname,
             string name,
             string patronymic,
-
             T sumAccount,
+            string typeAccount,
             string statusAccount
             )
         {
@@ -42,8 +43,8 @@
             Surname = surname;
             Name = name;
             Patronymic = patronymic;
-
             SumAccount = sumAccount;
+            TypeAccount = typeAccount;
             StatusAccount = statusAccount;
         }
         /// <summary>
